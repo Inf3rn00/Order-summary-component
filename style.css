@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top:10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+    background-image: url(/images/pattern-background-desktop.svg
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+
+.main-container{
+    background-color:white;
+    max-width: 400px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.top-image{
+    width: 100%;
+    border-radius:15px 15px 0 0;
+}
+
+.bottom-section{
+    padding: 30px;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-family: 900;
+    margin-bottom: 15px;
+}
+
+#content-summary{
+    padding:0  20px;
+    margin-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.price-summary{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color:  hsl(225, 100%, 98%);
+    padding: 5px;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.price-summary-left{
+    display: grid;
+    padding-left: 10px;
+    padding: 15px;
+}
+
+.price-summary-right a{
+    color: hsl(245, 75%, 52%);
+    margin: 15px;
+    font-weight: 700;
+}
+
+.price-summary-right a:hover{
+    cursor: pointer;
+    color:   #766cf1;
+    text-decoration: none;
+}
+
+.price-and-image{
+    display: flex;
+    padding: 5px;
+}
+
+.price-and-image img{
+   height: 40px;
+   margin-top: 15px;
+}
+
+.plan-text{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 700;
+   
+}
+
+.plan-price{
+    color: hsl(224, 23%, 55%);
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 10px 15px 10px#e8e6fb;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:   #766cf1;
+}
+
+.cancel-order a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-order a:hover{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
